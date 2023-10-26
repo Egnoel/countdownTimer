@@ -15,11 +15,11 @@ function App() {
       bg-cover bg-repeat relative"
       >
         <div className="flex flex-col ">
-          <h1 className="text-white font-bold text-5xl text-center">
+          <h1 className="text-5xl font-bold text-center text-white">
             We are launching soon
           </h1>
-          <div className="flex flex-row w-full justify-center items-center gap-4 mt-5">
-            <div className="flex flex-col relative gap-2">
+          <div className="flex flex-row items-center justify-center w-full gap-4 mt-5">
+            <div className="relative flex flex-col gap-2">
               <div className="flex w-20 h-20 bg-[#343650] items-center justify-center">
                 <span className="text-[#FB5E84] text-4xl">08</span>
                 <hr className="border-solid border-black absolute top-[40%] w-full" />
@@ -34,7 +34,7 @@ function App() {
               </div>
               <span className="text-[#8385A9] text-sm text-center">DAYS</span>
             </div>
-            <div className="flex flex-col relative gap-2">
+            <div className="relative flex flex-col gap-2">
               <div className="flex w-20 h-20 bg-[#343650] items-center justify-center">
                 <span className="text-[#FB5E84] text-4xl">23</span>
                 <hr className="border-solid border-black absolute top-[40%] w-full" />
@@ -49,7 +49,7 @@ function App() {
               </div>
               <span className="text-[#8385A9] text-sm text-center">HOURS</span>
             </div>
-            <div className="flex flex-col relative gap-2">
+            <div className="relative flex flex-col gap-2">
               <div className="flex w-20 h-20 bg-[#343650] items-center justify-center">
                 <span className="text-[#FB5E84] text-4xl">55</span>
                 <hr className="border-solid border-black absolute top-[40%] w-full" />
@@ -66,7 +66,7 @@ function App() {
                 MINUTES
               </span>
             </div>
-            <div className="flex flex-col relative gap-2">
+            <div className="relative flex flex-col gap-2">
               <div className="flex w-20 h-20 bg-[#343650] items-center justify-center">
                 <span className="text-[#FB5E84] text-4xl">41</span>
                 <hr className="border-solid border-black absolute top-[40%] w-full" />
@@ -85,27 +85,27 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-4 absolute bottom-4  z-10">
-          <div className="w-4 h-4 icon_hover">
-            <img src={facebook} alt="" className="w-full h-full object-cover" />
+        <div className="absolute z-10 flex flex-row gap-4 bottom-4 sm:bottom-2">
+          <div className="w-4 h-4 icon_hover sm:w-8 sm:h-8">
+            <img src={facebook} alt="" className="object-cover w-full h-full" />
           </div>
-          <div className="w-4 h-4 icon_hover">
+          <div className="w-4 h-4 icon_hover sm:w-8 sm:h-8 ">
             <img
               src={instagram}
               alt=""
-              className="w-fuul h-full object-cover"
+              className="object-cover h-full w-fuul"
             />
           </div>
-          <div className="w-4 h-4 icon_hover">
+          <div className="w-4 h-4 icon_hover sm:w-8 sm:h-8">
             <img
               src={pinterest}
               alt=""
-              className="w-fuul h-full object-cover"
+              className="object-cover h-full w-fuul"
             />
           </div>
         </div>
-        <div className="w-full bottom-0 absolute h-14">
-          <img src={patternHills} alt="" className="w-full object-cover" />
+        <div className="absolute bottom-0 w-full h-14">
+          <img src={patternHills} alt="" className="object-cover w-full" />
         </div>
       </div>
     </div>
