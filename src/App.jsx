@@ -85,7 +85,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="absolute z-10 flex flex-row gap-4 bottom-4 sm:bottom-2">
+        <div className="absolute z-10 flex flex-row gap-4 bottom-4 sm:bottom-[-70px]">
           <div className="w-4 h-4 icon_hover sm:w-8 sm:h-8">
             <img src={facebook} alt="" className="object-cover w-full h-full" />
           </div>
